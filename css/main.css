@@ -1,0 +1,22 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-left: 25px;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(70, 119, 209);
+}
+.box h3 {
+  padding: 10px;
+}
+
+.triangle {
+  max-width: 0px;
+  position: absolute;
+  margin-left: 5px;
+  border-top: 20px solid rgb(70, 119, 209);
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+}/*# sourceMappingURL=main.css.map */

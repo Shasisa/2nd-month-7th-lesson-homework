@@ -1,0 +1,23 @@
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-left: 25px;
+    width: 300px;
+    height: 100px;
+    background-color: $bg-color;
+
+    h3 {
+        padding: 10px
+    }
+    
+}
+.triangle {
+    @include max-width;
+    position: absolute;
+    margin-left: 5px;
+    border-top: 20px solid $bg-color;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+}
